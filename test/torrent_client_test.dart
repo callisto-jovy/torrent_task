@@ -6,7 +6,7 @@ import 'dart:typed_data';
 
 import 'package:dartorrent_common/dartorrent_common.dart';
 import 'package:test/test.dart';
-import 'package:torrent_model/torrent_model.dart';
+import 'package:torrent_task/src/torrent_model/torrent.dart';
 import 'package:torrent_task/torrent_task.dart';
 
 void main() {

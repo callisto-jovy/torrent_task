@@ -1,6 +1,5 @@
 import 'package:dartorrent_common/dartorrent_common.dart';
 
-import '../utils.dart';
 import 'piece.dart';
 import 'piece_provider.dart';
 import 'piece_selector.dart';

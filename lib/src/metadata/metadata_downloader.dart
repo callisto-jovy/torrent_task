@@ -8,8 +8,8 @@ import 'package:dartorrent_common/dartorrent_common.dart';
 import 'package:dht_dart/dht_dart.dart';
 import 'package:torrent_tracker/torrent_tracker.dart';
 
-import '../peer/peer.dart';
 import '../peer/holepunch.dart';
+import '../peer/peer.dart';
 import '../peer/pex.dart';
 import '../utils.dart';
 import 'metadata_messager.dart';

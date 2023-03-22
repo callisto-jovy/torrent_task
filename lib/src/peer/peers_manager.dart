@@ -1,18 +1,18 @@
 import 'dart:async';
 import 'dart:io';
 
-import 'package:torrent_model/torrent_model.dart';
 import 'package:dartorrent_common/dartorrent_common.dart';
+import 'package:torrent_task/src/torrent_model/torrent.dart';
 
-import 'bitfield.dart';
-import 'peer.dart';
 import '../file/download_file_manager.dart';
-import '../piece/piece_manager.dart';
+import '../peer/holepunch.dart';
+import '../peer/pex.dart';
 import '../piece/piece.dart';
+import '../piece/piece_manager.dart';
 import '../piece/piece_provider.dart';
 import '../utils.dart';
-import '../peer/pex.dart';
-import '../peer/holepunch.dart';
+import 'bitfield.dart';
+import 'peer.dart';
 
 const MAX_ACTIVE_PEERS = 50;
 

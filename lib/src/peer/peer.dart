@@ -4,6 +4,7 @@ import 'dart:developer' as dev;
 import 'dart:io';
 import 'dart:math';
 import 'dart:typed_data';
+
 import 'package:bencode_dart/bencode_dart.dart';
 import 'package:dartorrent_common/dartorrent_common.dart';
 import 'package:torrent_task/torrent_task.dart';
@@ -11,10 +12,10 @@ import 'package:utp/utp.dart';
 
 import '../utils.dart';
 import 'bitfield.dart';
-import 'peer_event_dispatcher.dart';
 import 'congestion_control.dart';
-import 'speed_calculator.dart';
 import 'extended_proccessor.dart';
+import 'peer_event_dispatcher.dart';
+import 'speed_calculator.dart';
 
 const KEEP_ALIVE_MESSAGE = [0, 0, 0, 0];
 const RESERVED = [0, 0, 0, 0, 0, 0, 0, 0];

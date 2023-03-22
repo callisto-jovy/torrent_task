@@ -1,7 +1,7 @@
 import 'dart:io';
 
-import 'package:torrent_model/torrent_model.dart';
 import 'package:torrent_task/src/lsd/lsd.dart';
+import 'package:torrent_task/src/torrent_model/torrent.dart';
 import 'package:torrent_task/torrent_task.dart';
 
 void main(List<String> args) async {

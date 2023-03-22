@@ -1,9 +1,9 @@
 import 'dart:async';
 import 'dart:developer';
 
-import 'package:torrent_model/torrent_model.dart';
-import '../peer/peer_base.dart';
+import 'package:torrent_task/src/torrent_model/torrent.dart';
 
+import '../peer/peer_base.dart';
 import 'download_file.dart';
 import 'state_file.dart';
 

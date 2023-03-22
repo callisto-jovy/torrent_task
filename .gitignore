@@ -21,3 +21,5 @@ example/bttest/
 # test file
 test/my_test.dart
 test/test_me.dart
+
+/.idea

@@ -3,18 +3,18 @@ import 'dart:developer';
 import 'dart:io';
 import 'dart:typed_data';
 
-import 'package:torrent_model/torrent_model.dart';
-import 'package:torrent_tracker/torrent_tracker.dart';
 import 'package:dartorrent_common/dartorrent_common.dart';
 import 'package:dht_dart/dht_dart.dart';
+import 'package:torrent_task/src/torrent_model/torrent.dart';
+import 'package:torrent_tracker/torrent_tracker.dart';
 
 import 'file/download_file_manager.dart';
 import 'file/state_file.dart';
 import 'lsd/lsd.dart';
 import 'peer/peer.dart';
+import 'peer/peers_manager.dart';
 import 'piece/base_piece_selector.dart';
 import 'piece/piece_manager.dart';
-import 'peer/peers_manager.dart';
 import 'utils.dart';
 
 const MAX_PEERS = 50;
